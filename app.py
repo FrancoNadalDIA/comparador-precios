@@ -14,9 +14,9 @@ df = cargar_datos()
 
 col1, col2 = st.columns(2)
 with col1:
-    buscar_nombre = st.text_input("🔍 Producto", placeholder="Ej: PRESERVATIVOS")
+    buscar_nombre = st.text_input("🔍 Producto", placeholder="Ej: YERBA")
 with col2:
-    buscar_marca = st.text_input("🏷️ Marca", placeholder="Ej: PRIME")
+    buscar_marca = st.text_input("🏷️ Marca", placeholder="Ej: CANARIAS")
 
 df_f = df.copy()
 if buscar_nombre:
